@@ -5,7 +5,7 @@ import gensim
 
 # 第一步：加入字典
 def add_dict():
-    f = open('./text/special_nouns.txt','r', encoding='utf-8')
+    f = open('./text看的可可粉s.txt','r', encoding='utf-8')
     for word in f:
         jieba.suggest_freq(word.strip(),tune=True)
     f.close()
